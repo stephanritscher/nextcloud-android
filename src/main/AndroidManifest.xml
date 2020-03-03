@@ -409,6 +409,11 @@
         <activity
             android:name="com.nextcloud.client.etm.EtmActivity"
             android:theme="@style/Theme.ownCloud.Toolbar" />
+
+        <!-- InteractiveKeyManager -->
+        <activity
+            android:name="de.ritscher.ssl.SelectKeyStoreActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" />
     </application>
 
     <queries>

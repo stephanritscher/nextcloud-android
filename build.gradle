@@ -270,10 +270,11 @@ dependencies {
     // dependencies for app building
     implementation 'androidx.multidex:multidex:2.0.1'
 //    implementation project('nextcloud-android-library')
-    genericImplementation "com.github.nextcloud:android-library:$androidLibraryVersion"
-    gplayImplementation "com.github.nextcloud:android-library:$androidLibraryVersion"
-    versionDevImplementation "com.github.nextcloud:android-library:$androidLibraryVersion"
-    qaImplementation "com.github.nextcloud:android-library:$androidLibraryVersion"
+    genericImplementation "com.github.stephanritscher:nextcloud-android-library:$androidLibraryVersion"
+    gplayImplementation "com.github.stephanritscher:nextcloud-android-library:$androidLibraryVersion"
+    versionDevImplementation "com.github.stephanritscher:nextcloud-android-library:$androidLibraryVersion"
+    qaImplementation "com.github.stephanritscher:nextcloud-android-library:$androidLibraryVersion"
+    implementation 'com.github.stephanritscher:InteractiveKeyManager:0.1'
 
     kapt 'javax.xml.bind:jaxb-api:2.3.1'
     kapt 'org.glassfish.jaxb:jaxb-core:2.3.0.1'
